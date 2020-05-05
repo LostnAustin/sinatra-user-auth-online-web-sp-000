@@ -9,7 +9,7 @@ class ApplicationController < Sinatra::Base
 
   get '/' do
     # binding.pry
-    erb :"/views/home"
+    erb :home
   end
 
   get '/registrations/signup' do
