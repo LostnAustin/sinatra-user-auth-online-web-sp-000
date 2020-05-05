@@ -8,7 +8,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/' do
-    binding.pry
+    # binding.pry
     erb :"/views/home"
   end
 
